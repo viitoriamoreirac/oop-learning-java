@@ -1,4 +1,4 @@
-package lista4;
+package lista4.questao2;
 
 import java.util.Scanner;
 
@@ -44,6 +44,7 @@ class Main {
                System.out.println("Opção inválida");
                break;
        }
+       scanner.close();
    }
 
 

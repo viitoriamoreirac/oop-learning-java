@@ -1,4 +1,4 @@
-package lista4;
+package lista4.questao3;
 
 import java.util.Scanner;
 
@@ -23,5 +23,6 @@ class Main {
 
        System.out.printf("O salário é: R$ %.2f%n", salary);
        System.out.printf("O imposto a ser pago é: R$ %.2f%n", tax);
-   }
+       scanner.close();
+    }
 }
