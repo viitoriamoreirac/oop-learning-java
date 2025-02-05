@@ -1,11 +1,11 @@
 package lista9.questao1;
 
 public class Pessoa {
-    protected   String    name;
-    protected   String    cpf;
-    protected   int       birthDate;
+    protected   String      name;
+    protected   String      cpf;
+    protected   String   birthDate;
 
-    public Pessoa (String name, String cpf, int birthDate) {
+    public Pessoa (String name, String cpf, String birthDate) {
         this.name = name;
         this.cpf = cpf;
         this.birthDate = birthDate;
@@ -17,7 +17,7 @@ public class Pessoa {
     public String getCpf() {
         return cpf;
     }
-    public int getBirthDate() {
+    public String getBirthDate() {
         return birthDate;
     }
     public void setName(String name) {
@@ -26,7 +26,7 @@ public class Pessoa {
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    public void setBirthDate(int birthDate) {
+    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
     }
 }
